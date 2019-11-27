@@ -1,0 +1,17 @@
+##
+# ScandiPWA_CatalogGraphQl
+#
+# @category    ScandiPWA
+# @package     ScandiPWA_StoreGraphQL
+# @author      Alfreds Genkins <info@scandiweb.com>
+# @copyright   Copyright (c) 2018 Scandiweb, Ltd (https://scandiweb.com)
+##
+
+type Query {
+    storeList: [StoreConfig] @resolver(class: "ScandiPWA\\StoreGraphQl\\Model\\Resolver\\StoreListResolver") @doc(description: "The store list query")
+}
+
+type StoreConfig {
+    name: String
+    is_active: Boolean
+}
