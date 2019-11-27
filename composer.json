@@ -1,7 +1,6 @@
 {
     "name": "scandipwa/store-graphql",
     "description": "Magneto 2 Store related functionality extension",
-    "version": "1.0.0",
     "keywords": [
         "magento2",
         "module",
