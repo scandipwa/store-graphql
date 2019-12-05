@@ -10,11 +10,11 @@
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-<!--    <type name="Magento\StoreGraphQl\Model\Resolver\Store\StoreConfigDataProvider">-->
-<!--        <arguments>-->
-<!--            <argument name="extendedConfigData">-->
-<!--                <item name="paypal_sandbox_flag" xsi:type="string">paypal/wpp/sandbox_flag</item>-->
-<!--            </argument>-->
-<!--        </arguments>-->
-<!--    </type>-->
+    <type name="Magento\StoreGraphQl\Model\Resolver\Store\StoreConfigDataProvider">
+        <arguments>
+            <argument name="extendedConfigData">
+                <item name="default_country" xsi:type="string">general/country/default</item>
+            </argument>
+        </arguments>
+    </type>
 </config>
