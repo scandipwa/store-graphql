@@ -10,6 +10,7 @@
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\StoreGraphQl\Model\Resolver\Store\StoreConfigDataProvider" type="ScandiPWA\StoreGraphQl\Model\Resolver\Store\StoreConfigDataProvider"/>
     <type name="Magento\StoreGraphQl\Controller\HttpHeaderProcessor\StoreProcessor">
         <plugin name="ScandiPWA::StoreProcessor" type="ScandiPWA\StoreGraphQl\Plugin\StoreProcessor" sortOrder="1" disabled="false"/>
     </type>
