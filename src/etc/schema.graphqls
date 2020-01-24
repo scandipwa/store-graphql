@@ -16,6 +16,6 @@ type StoreConfig {
     is_active: Boolean
     default_country: String
     terms_are_enabled: Boolean @doc(description: "Terms and conditions are enabled for checkout")
-    cookie_popup_text: String @doc(description: "Cookie popup - Text")
-    cookie_popup_link: String @doc(description: "Cookie popup - Cookie Privacy Page Link")
+    cookie_text: String @doc(description: "Cookie popup - Text")
+    cookie_link: String @doc(description: "Cookie popup - Cookie Privacy Page Link")
 }

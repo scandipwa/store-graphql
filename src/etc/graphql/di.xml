@@ -15,8 +15,8 @@
             <argument name="extendedConfigData">
                 <item name="default_country" xsi:type="string">general/country/default</item>
                 <item name="terms_are_enabled" xsi:type="string">checkout/options/enable_agreements</item>
-                <item name="cookie_popup_text" xsi:type="string">web/cookie/text</item>
-                <item name="cookie_popup_link" xsi:type="string">web/cookie/link</item>
+                <item name="cookie_text" xsi:type="string">content_customization/cookie_content/cookie_text</item>
+                <item name="cookie_link" xsi:type="string">content_customization/cookie_content/cookie_link</item>
             </argument>
         </arguments>
     </type>
