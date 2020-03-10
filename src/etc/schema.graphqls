@@ -16,4 +16,8 @@ type StoreConfig {
     is_active: Boolean
     default_country: String
     terms_are_enabled: Boolean @doc(description: "Terms and conditions are enabled for checkout")
+    pagination_frame: Int @doc(description: "How many pagination links to display")
+    pagination_frame_skip: Int @doc(description: "Number of links that are skipped ahead before showing the next set of links in the pagination")
+    anchor_text_for_previous: String @doc(description: "Alternative text for the previous pages link in the pagination menu")
+    anchor_text_for_next: String @doc(description: "Alternative text for the next pages link in the pagination menu")
 }
