@@ -15,6 +15,7 @@
             <argument name="extendedConfigData">
                 <item name="default_country" xsi:type="string">general/country/default</item>
                 <item name="terms_are_enabled" xsi:type="string">checkout/options/enable_agreements</item>
+                <item name="demo_notice" xsi:type="string">design/head/demonotice</item>
             </argument>
         </arguments>
     </type>

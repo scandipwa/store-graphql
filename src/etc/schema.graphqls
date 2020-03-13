@@ -16,4 +16,5 @@ type StoreConfig {
     is_active: Boolean
     default_country: String
     terms_are_enabled: Boolean @doc(description: "Terms and conditions are enabled for checkout")
+    demo_notice: Boolean @doc(description: "Demo notice enabled for store")
 }
