@@ -19,6 +19,7 @@
                 <item name="pagination_frame_skip" xsi:type="int">design/pagination/pagination_frame_skip</item>
                 <item name="anchor_text_for_previous" xsi:type="string">design/pagination/anchor_text_for_previous</item>
                 <item name="anchor_text_for_next" xsi:type="string">design/pagination/anchor_text_for_next</item>
+                <item name="demo_notice" xsi:type="string">design/head/demonotice</item>
             </argument>
         </arguments>
     </type>
