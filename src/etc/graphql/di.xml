@@ -23,6 +23,8 @@
                 <item name="anchor_text_for_previous" xsi:type="string">design/pagination/anchor_text_for_previous</item>
                 <item name="anchor_text_for_next" xsi:type="string">design/pagination/anchor_text_for_next</item>
                 <item name="demo_notice" xsi:type="string">design/head/demonotice</item>
+                <item name="reviews_allow_guest" xsi:type="string">catalog/review/allow_guest</item>
+                <item name="reviews_are_enabled" xsi:type="string">catalog/review/active</item>
             </argument>
         </arguments>
     </type>
