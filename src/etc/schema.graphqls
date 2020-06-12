@@ -27,4 +27,5 @@ type StoreConfig {
     reviews_allow_guest: Boolean @doc(description: "Are guest reviews enabled")
     reviews_are_enabled: Boolean @doc(description: "Are reviews enabled")
     guest_checkout: Boolean  @doc(description: "Is guest checkout enabled")
+    is_email_confirmation_required: Boolean  @doc(description: "Is customer email confirmation enabled")
 }

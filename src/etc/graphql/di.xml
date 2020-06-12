@@ -26,6 +26,7 @@
                 <item name="reviews_allow_guest" xsi:type="string">catalog/review/allow_guest</item>
                 <item name="reviews_are_enabled" xsi:type="string">catalog/review/active</item>
                 <item name="guest_checkout" xsi:type="string">checkout/options/guest_checkout</item>
+                <item name="is_email_confirmation_required" xsi:type="string">customer/create_account/confirm</item>
             </argument>
         </arguments>
     </type>
