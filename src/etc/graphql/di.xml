@@ -29,4 +29,5 @@
             </argument>
         </arguments>
     </type>
+    <preference for="Magento\StoreGraphQl\Model\Resolver\StoreConfigResolver" type="ScandiPWA\StoreGraphQl\Model\Resolver\StoreConfigResolver" />
 </config>
