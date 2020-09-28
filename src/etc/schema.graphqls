@@ -10,6 +10,7 @@
 
 type Query {
     storeList: [StoreConfig] @resolver(class: "ScandiPWA\\StoreGraphQl\\Model\\Resolver\\StoreListResolver") @doc(description: "The store list query")
+    storeConfig : StoreConfig @resolver(class: "ScandiPWA\\StoreGraphQl\\Model\\Resolver\\StoreConfigResolver") @doc(description: "The store config query") @cache(cacheable: false)
 }
 
 type StoreConfig {
@@ -28,4 +29,5 @@ type StoreConfig {
     reviews_are_enabled: Boolean @doc(description: "Are reviews enabled")
     guest_checkout: Boolean  @doc(description: "Is guest checkout enabled")
     is_email_confirmation_required: Boolean  @doc(description: "Is customer email confirmation enabled")
+    address_lines_quantity: Int @doc(description: "Number of address lines in forms")
 }
