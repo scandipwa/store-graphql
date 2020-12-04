@@ -17,6 +17,7 @@
                 <item name="terms_are_enabled" xsi:type="string">checkout/options/enable_agreements</item>
                 <item name="cookie_text" xsi:type="string">content_customization/cookie_content/cookie_text</item>
                 <item name="cookie_link" xsi:type="string">content_customization/cookie_content/cookie_link</item>
+                <item name="cookie_script" xsi:type="string">content_customization/cookie_content/cookie_script</item>
                 <item name="pagination_frame" xsi:type="string">design/pagination/pagination_frame</item>
                 <item name="pagination_frame_skip" xsi:type="string">design/pagination/pagination_frame_skip</item>
                 <item name="anchor_text_for_previous" xsi:type="string">design/pagination/anchor_text_for_previous</item>
