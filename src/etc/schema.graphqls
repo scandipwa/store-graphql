@@ -32,6 +32,7 @@ type StoreConfig {
     address_lines_quantity: Int @doc(description: "Number of address lines in forms")
     show_vat_number_on_storefront: Boolean @doc(description: "Displays VAT Number field at address form")
     show_tax_vat_number: String @doc(description: "Allows to control the visibility and validation of VAT/TAX Number at customer details / signup forms")
+    cookie_lifetime: String @doc(description: "Cookie lifetime in seconds")
     priceTaxDisplay: PriceTaxDisplay @resolver(class: "ScandiPWA\\StoreGraphQl\\Model\\Resolver\\PriceTaxDisplayResolver") @doc(description: "The price tax display mode")
 }
 
