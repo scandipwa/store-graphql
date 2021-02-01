@@ -35,6 +35,7 @@ type StoreConfig {
     show_tax_vat_number: String @doc(description: "Allows to control the visibility and validation of VAT/TAX Number at customer details / signup forms")
     cookie_lifetime: String @doc(description: "Cookie lifetime in seconds")
     priceTaxDisplay: PriceTaxDisplay @resolver(class: "ScandiPWA\\StoreGraphQl\\Model\\Resolver\\PriceTaxDisplayResolver") @doc(description: "The price tax display mode")
+    product_use_categories: String @doc(description: "Use Categories Path for Product URLs")
 }
 
 type PriceTaxDisplay {
