@@ -35,6 +35,7 @@ type StoreConfig {
     cookie_lifetime: String @doc(description: "Cookie lifetime in seconds")
     plp_list_mode: String @doc(description: "PLP list mode")
     priceTaxDisplay: PriceTaxDisplay @resolver(class: "ScandiPWA\\StoreGraphQl\\Model\\Resolver\\PriceTaxDisplayResolver") @doc(description: "The price tax display mode")
+    product_use_categories: String @doc(description: "Use Categories Path for Product URLs")
 }
 
 type PriceTaxDisplay {
