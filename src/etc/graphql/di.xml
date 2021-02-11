@@ -29,6 +29,7 @@
                 <item name="show_vat_number_on_storefront" xsi:type="string">customer/create_account/vat_frontend_visibility</item>
                 <item name="show_tax_vat_number" xsi:type="string">customer/address/taxvat_show</item>
                 <item name="cookie_lifetime" xsi:type="string">web/cookie/cookie_lifetime</item>
+                <item name="plp_list_mode" xsi:type="string">catalog/frontend/list_mode</item>
                 <item name="product_use_categories" xsi:type="string">catalog/seo/product_use_categories</item>
             </argument>
         </arguments>
