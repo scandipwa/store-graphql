@@ -37,6 +37,8 @@ type StoreConfig {
     priceTaxDisplay: PriceTaxDisplay @resolver(class: "ScandiPWA\\StoreGraphQl\\Model\\Resolver\\PriceTaxDisplayResolver") @doc(description: "The price tax display mode")
     product_use_categories: String @doc(description: "Use Categories Path for Product URLs")
     region_display_all: Boolean @doc(description: "Defines if state field is displayed for countries that doesn't require state")
+    redirect_dashboard: Boolean @doc(description: "Allows to decide whether to redirect user after login")
+    layered_navigation_product_count_enabled: Boolean @doc(description: "Should layered navigation display product count")
 }
 
 type PriceTaxDisplay {
