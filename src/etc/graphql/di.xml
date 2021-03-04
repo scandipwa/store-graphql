@@ -31,6 +31,7 @@
                 <item name="cookie_lifetime" xsi:type="string">web/cookie/cookie_lifetime</item>
                 <item name="plp_list_mode" xsi:type="string">catalog/frontend/list_mode</item>
                 <item name="product_use_categories" xsi:type="string">catalog/seo/product_use_categories</item>
+                <item name="region_display_all" xsi:type="string">general/region/display_all</item>
                 <item name="redirect_dashboard" xsi:type="string">customer/startup/redirect_dashboard</item>
                 <item name="layered_navigation_product_count_enabled" xsi:type="string">catalog/layered_navigation/display_product_count</item>
             </argument>
