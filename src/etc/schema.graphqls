@@ -29,6 +29,7 @@ type StoreConfig {
     reviews_are_enabled: Boolean @doc(description: "Are reviews enabled")
     guest_checkout: Boolean  @doc(description: "Is guest checkout enabled")
     is_email_confirmation_required: Boolean  @doc(description: "Is customer email confirmation enabled")
+    display_product_stock_status: Boolean  @doc(description: "Is product stock status displayed")
     address_lines_quantity: Int @doc(description: "Number of address lines in forms")
     show_vat_number_on_storefront: Boolean @doc(description: "Displays VAT Number field at address form")
     show_tax_vat_number: String @doc(description: "Allows to control the visibility and validation of VAT/TAX Number at customer details / signup forms")
