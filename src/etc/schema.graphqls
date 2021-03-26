@@ -27,6 +27,7 @@ type StoreConfig {
     demo_notice: Boolean @doc(description: "Demo notice enabled for store")
     reviews_allow_guest: Boolean @doc(description: "Are guest reviews enabled")
     reviews_are_enabled: Boolean @doc(description: "Are reviews enabled")
+    wishlist_general_active: Boolean @doc(description: "Is wishlist enabled")
     guest_checkout: Boolean  @doc(description: "Is guest checkout enabled")
     is_email_confirmation_required: Boolean  @doc(description: "Is customer email confirmation enabled")
     address_lines_quantity: Int @doc(description: "Number of address lines in forms")
