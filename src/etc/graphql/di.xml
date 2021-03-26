@@ -35,6 +35,7 @@
                 <item name="region_display_all" xsi:type="string">general/region/display_all</item>
                 <item name="redirect_dashboard" xsi:type="string">customer/startup/redirect_dashboard</item>
                 <item name="layered_navigation_product_count_enabled" xsi:type="string">catalog/layered_navigation/display_product_count</item>
+                <item name="downloadable_disable_guest_checkout" xsi:type="string">catalog/downloadable/disable_guest_checkout</item>
             </argument>
         </arguments>
     </type>
