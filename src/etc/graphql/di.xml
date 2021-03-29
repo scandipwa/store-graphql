@@ -35,6 +35,9 @@
                 <item name="region_display_all" xsi:type="string">general/region/display_all</item>
                 <item name="redirect_dashboard" xsi:type="string">customer/startup/redirect_dashboard</item>
                 <item name="layered_navigation_product_count_enabled" xsi:type="string">catalog/layered_navigation/display_product_count</item>
+                <item name="newsletter_general_active" xsi:type="string">newsletter/general/active</item>
+                <item name="newsletter_subscription_allow_guest_subscribe" xsi:type="string">newsletter/subscription/allow_guest_subscribe</item>
+                <item name="newsletter_subscription_confirm" xsi:type="string">newsletter/subscription/confirm</item>
             </argument>
         </arguments>
     </type>
