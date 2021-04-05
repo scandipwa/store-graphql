@@ -35,6 +35,8 @@
                 <item name="region_display_all" xsi:type="string">general/region/display_all</item>
                 <item name="redirect_dashboard" xsi:type="string">customer/startup/redirect_dashboard</item>
                 <item name="layered_navigation_product_count_enabled" xsi:type="string">catalog/layered_navigation/display_product_count</item>
+                <item name="product_alert_allow_price" xsi:type="string">catalog/productalert/allow_price</item>
+                <item name="product_alert_allow_stock" xsi:type="string">catalog/productalert/allow_stock</item>
             </argument>
         </arguments>
     </type>
