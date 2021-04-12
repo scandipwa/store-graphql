@@ -35,6 +35,10 @@
                 <item name="region_display_all" xsi:type="string">general/region/display_all</item>
                 <item name="redirect_dashboard" xsi:type="string">customer/startup/redirect_dashboard</item>
                 <item name="layered_navigation_product_count_enabled" xsi:type="string">catalog/layered_navigation/display_product_count</item>
+                <item name="grid_per_page_values" xsi:type="string">catalog/frontend/grid_per_page_values</item>
+                <item name="grid_per_page" xsi:type="string">catalog/frontend/grid_per_page</item>
+                <item name="list_per_page_values" xsi:type="string">catalog/frontend/list_per_page_values</item>
+                <item name="list_per_page" xsi:type="string">catalog/frontend/list_per_page</item>
             </argument>
         </arguments>
     </type>
