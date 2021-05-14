@@ -42,6 +42,9 @@ type StoreConfig {
     redirect_dashboard: Boolean @doc(description: "Allows to decide whether to redirect user after login")
     layered_navigation_product_count_enabled: Boolean @doc(description: "Should layered navigation display product count")
     downloadable_links_target_new_window: Boolean @doc(description: "Defines if downloadable links should be opened in new tab")
+    newsletter_general_active: Boolean @doc(description: "Is newsletter subscription enabled")
+    newsletter_subscription_allow_guest_subscribe: Boolean @doc(description: "Is newsletter subscription allowed for not authentificated users")
+    newsletter_subscription_confirm: Boolean @doc(description: "Is moderation of newsletter subscription required")
 }
 
 type PriceTaxDisplay {
