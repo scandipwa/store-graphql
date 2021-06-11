@@ -40,6 +40,7 @@
                 <item name="newsletter_general_active" xsi:type="string">newsletter/general/active</item>
                 <item name="newsletter_subscription_allow_guest_subscribe" xsi:type="string">newsletter/subscription/allow_guest_subscribe</item>
                 <item name="newsletter_subscription_confirm" xsi:type="string">newsletter/subscription/confirm</item>
+                <item name="category_url_suffix" xsi:type="string">catalog/seo/category_url_suffix</item>
             </argument>
         </arguments>
     </type>
