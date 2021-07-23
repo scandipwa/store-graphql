@@ -46,6 +46,7 @@ type StoreConfig {
     newsletter_subscription_allow_guest_subscribe: Boolean @doc(description: "Is newsletter subscription allowed for not authentificated users")
     newsletter_subscription_confirm: Boolean @doc(description: "Is moderation of newsletter subscription required")
     category_url_suffix: String @doc(description: "Category URL Suffix")
+    delivery_instore_active: Boolean @doc(description: "Defines if instore delivery method actived")
 }
 
 type PriceTaxDisplay {
