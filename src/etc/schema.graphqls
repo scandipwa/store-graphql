@@ -49,6 +49,7 @@ type StoreConfig {
     newsletter_subscription_confirm: Boolean @doc(description: "Is moderation of newsletter subscription required")
     category_url_suffix: String @doc(description: "Category URL Suffix")
     delivery_instore_active: Boolean @doc(description: "Defines if instore delivery method actived")
+    access_token_lifetime: String @doc(description: "Defines OAuth customer token lifetime")
 }
 
 type PriceTaxDisplay {

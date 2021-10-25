@@ -44,6 +44,7 @@
                 <item name="newsletter_subscription_confirm" xsi:type="string">newsletter/subscription/confirm</item>
                 <item name="category_url_suffix" xsi:type="string">catalog/seo/category_url_suffix</item>
                 <item name="delivery_instore_active" xsi:type="string">carriers/instore/active</item>
+                <item name="access_token_lifetime" xsi:type="string">oauth/access_token_lifetime/customer</item>
             </argument>
         </arguments>
     </type>
