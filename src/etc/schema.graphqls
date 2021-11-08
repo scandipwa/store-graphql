@@ -50,6 +50,10 @@ type StoreConfig {
     category_url_suffix: String @doc(description: "Category URL Suffix")
     delivery_instore_active: Boolean @doc(description: "Defines if instore delivery method actived")
     access_token_lifetime: String @doc(description: "Defines OAuth customer token lifetime")
+    use_calendar: String @doc(description: "Use a popup calendar as input control for date fields")
+    year_range: String @doc(description: "Min and max years allowed")
+    date_fields_order: String @doc(description: "Day, month and year order in date fields")
+    time_format: String @doc(description: "24h or 12h + AM/PM format")
 }
 
 type PriceTaxDisplay {
