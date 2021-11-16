@@ -54,6 +54,8 @@ type StoreConfig {
     year_range: String @doc(description: "Min and max years allowed")
     date_fields_order: String @doc(description: "Day, month and year order in date fields")
     time_format: String @doc(description: "24h or 12h + AM/PM format")
+    is_allowed_reorder: Boolean @doc(desription: "Defines if customer is allowed to reorder")
+    rss_order_subscribe_allow: Boolean @doc(description: "Defines if customer is allowed to subscribe to order status")
 }
 
 type PriceTaxDisplay {
