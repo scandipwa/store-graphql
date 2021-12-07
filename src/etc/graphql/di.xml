@@ -27,6 +27,7 @@
                 <item name="wishlist_general_active" xsi:type="string">wishlist/general/active</item>
                 <item name="guest_checkout" xsi:type="string">checkout/options/guest_checkout</item>
                 <item name="is_email_confirmation_required" xsi:type="string">customer/create_account/confirm</item>
+                <item name="display_product_stock_status" xsi:type="string">cataloginventory/options/display_product_stock_status</item>
                 <item name="show_vat_number_on_storefront" xsi:type="string">customer/create_account/vat_frontend_visibility</item>
                 <item name="show_tax_vat_number" xsi:type="string">customer/address/taxvat_show</item>
                 <item name="cookie_lifetime" xsi:type="string">web/cookie/cookie_lifetime</item>
@@ -36,6 +37,19 @@
                 <item name="redirect_dashboard" xsi:type="string">customer/startup/redirect_dashboard</item>
                 <item name="layered_navigation_product_count_enabled" xsi:type="string">catalog/layered_navigation/display_product_count</item>
                 <item name="downloadable_disable_guest_checkout" xsi:type="string">catalog/downloadable/disable_guest_checkout</item>
+                <item name="product_alert_allow_price" xsi:type="string">catalog/productalert/allow_price</item>
+                <item name="product_alert_allow_stock" xsi:type="string">catalog/productalert/allow_stock</item>
+                <item name="downloadable_links_target_new_window" xsi:type="string">catalog/downloadable/links_target_new_window</item>
+                <item name="newsletter_general_active" xsi:type="string">newsletter/general/active</item>
+                <item name="newsletter_subscription_allow_guest_subscribe" xsi:type="string">newsletter/subscription/allow_guest_subscribe</item>
+                <item name="newsletter_subscription_confirm" xsi:type="string">newsletter/subscription/confirm</item>
+                <item name="category_url_suffix" xsi:type="string">catalog/seo/category_url_suffix</item>
+                <item name="delivery_instore_active" xsi:type="string">carriers/instore/active</item>
+                <item name="access_token_lifetime" xsi:type="string">oauth/access_token_lifetime/customer</item>
+                <item name="use_calendar" xsi:type="string">catalog/custom_options/use_calendar</item>
+                <item name="year_range" xsi:type="string">catalog/custom_options/year_range</item>
+                <item name="date_fields_order" xsi:type="string">catalog/custom_options/date_fields_order</item>
+                <item name="time_format" xsi:type="string">catalog/custom_options/time_format</item>
             </argument>
         </arguments>
     </type>
