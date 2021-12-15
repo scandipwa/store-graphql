@@ -49,7 +49,7 @@
                 <item name="year_range" xsi:type="string">catalog/custom_options/year_range</item>
                 <item name="date_fields_order" xsi:type="string">catalog/custom_options/date_fields_order</item>
                 <item name="time_format" xsi:type="string">catalog/custom_options/time_format</item>
-                <item name="allow_reorder" xsi:type="string">sales/reorder/allow</item>
+                <item name="is_allowed_reorder" xsi:type="string">sales/reorder/allow</item>
                 <item name="rss_order_subscribe_allow" xsi:type="string">rss/order/status</item>
             </argument>
         </arguments>
