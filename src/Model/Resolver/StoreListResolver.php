@@ -50,11 +50,11 @@ class StoreListResolver implements ResolverInterface
      * @inheritdoc
      */
     public function resolve(
-        Field       $field,
-                    $context,
+        Field $field,
+        $context,
         ResolveInfo $info,
-        array       $value = null,
-        array       $args = null
+        array $value = null,
+        array $args = null
     )
     {
         $stores = $this->storeManager->getStores();
