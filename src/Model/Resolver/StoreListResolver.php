@@ -50,20 +50,26 @@ class StoreListResolver implements ResolverInterface
      * @inheritdoc
      */
     public function resolve(
-        Field $field,
-        $context,
+        Field       $field,
+                    $context,
         ResolveInfo $info,
-        array $value = null,
-        array $args = null
-    ) {
+        array       $value = null,
+        array       $args = null
+    )
+    {
         $stores = $this->storeManager->getStores();
+        $storeCode = $this->storeManager->getStore()->getCode();
 
-        return array_map(function ($store) {
+        $mappedStores = array_map(function ($store) {
             /** @var $store StoreInterface */
             return array_merge(
                 $this->storeConfigDataProvider->getStoreConfigData($store),
-                ['name' => $store->getName(), 'is_active' => $store->getIsActive()]
+                ['name' => $store->getName(), 'is_active' => $store->getIsActive(), 'code' => $store->getCode()]
             );
         }, $stores);
+
+        return array_filter($mappedStores, function ($store) use ($storeCode) {
+            return $store["code"] == $storeCode;
+        });
     }
 }
