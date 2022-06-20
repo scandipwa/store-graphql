@@ -64,12 +64,16 @@ class StoreListResolver implements ResolverInterface
             /** @var $store StoreInterface */
             return array_merge(
                 $this->storeConfigDataProvider->getStoreConfigData($store),
-                ['name' => $store->getName(), 'is_active' => $store->getIsActive(), 'website_id' => $store->getWebsiteId()]
+                [
+                    'name' => $store->getName(),
+                    'is_active' => $store->getIsActive(),
+                    'website_id' => $store->getWebsiteId()
+                ]
             );
         }, $stores);
 
         $filtered = array_filter($mappedStores, function ($store) use ($website_id) {
-            return $store["website_id"] == $website_id;
+            return $store["website_id"] === $website_id;
         });
 
         return $filtered;
