@@ -58,18 +58,20 @@ class StoreListResolver implements ResolverInterface
     )
     {
         $stores = $this->storeManager->getStores();
-        $storeCode = $this->storeManager->getStore()->getCode();
+        $website_id = $this->storeManager->getWebsite()->getId();
 
         $mappedStores = array_map(function ($store) {
             /** @var $store StoreInterface */
             return array_merge(
                 $this->storeConfigDataProvider->getStoreConfigData($store),
-                ['name' => $store->getName(), 'is_active' => $store->getIsActive(), 'code' => $store->getCode()]
+                ['name' => $store->getName(), 'is_active' => $store->getIsActive(), 'website_id' => $store->getWebsiteId()]
             );
         }, $stores);
 
-        return array_filter($mappedStores, function ($store) use ($storeCode) {
-            return $store["code"] == $storeCode;
+        $filtered = array_filter($mappedStores, function ($store) use ($website_id) {
+            return $store["website_id"] == $website_id;
         });
+
+        return $filtered;
     }
 }
