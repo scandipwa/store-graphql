@@ -55,15 +55,27 @@ class StoreListResolver implements ResolverInterface
         ResolveInfo $info,
         array $value = null,
         array $args = null
-    ) {
+    )
+    {
         $stores = $this->storeManager->getStores();
+        $website_id = $this->storeManager->getWebsite()->getId();
 
-        return array_map(function ($store) {
+        $mappedStores = array_map(function ($store) {
             /** @var $store StoreInterface */
             return array_merge(
                 $this->storeConfigDataProvider->getStoreConfigData($store),
-                ['name' => $store->getName(), 'is_active' => $store->getIsActive()]
+                [
+                    'name' => $store->getName(),
+                    'is_active' => $store->getIsActive(),
+                    'website_id' => $store->getWebsiteId()
+                ]
             );
         }, $stores);
+
+        $filtered = array_filter($mappedStores, function ($store) use ($website_id) {
+            return $store["website_id"] === $website_id;
+        });
+
+        return $filtered;
     }
 }
