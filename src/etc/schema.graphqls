@@ -58,6 +58,7 @@ type StoreConfig {
     is_allowed_reorder: Boolean @doc(desription: "Defines if customer is allowed to reorder")
     rss_order_subscribe_allow: Boolean @doc(description: "Defines if customer is allowed to subscribe to order status")
     minimun_password_length: Int @doc(description: "Defines password minimun length for customer")
+    catalog_default_sort_by: String @doc(description: "Default catalog sort by")
 }
 
 type PriceTaxDisplay {
